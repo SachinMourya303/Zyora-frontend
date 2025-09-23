@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Adminnavbar from './Adminnavbar'
 import Sidebar from './Sidebar'
-import AdminForm from '../../pages/Form/adminForm'
+import AdminForm from "../../pages/Form/AdminForm";
 import { Outlet } from 'react-router-dom'
 
 const Admin = ({ admin, setAdmin }) => {
